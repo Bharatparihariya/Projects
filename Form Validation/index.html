@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form class="form" method="get" action="success.html"  name="form" onsubmit="return Validate()">
+        <h1>How to Validate Form Using JavaScript</h1><br>
+        <hr>
+        <center>
+            
+<input type="text" id="First" name="first" placeholder="Enter Your First Name..."> <input type="text" id="Last" name="last" placeholder="Enter Your Last Name...">
+<br>
+<div id="User_error">Please fill up your First and Last Name.</div>
+<br>
+<input type="email" id="Email" placeholder="Enter Your Email..."> <input type="number" id="Mob" maxlength="10"  placeholder="Enter Your Phone No...">
+<br>
+<div id="Email_error">Please fill up your Email and Phone No.</div>
+<br>
+<input type="password" id="Pass" placeholder="Enter Your Password..."> <input type="password" id="Cpass" placeholder="Enter Confirm Password...">
+<br>
+<div id="Pass_error">Please fill up your Password.</div>
+<br>
+<button type="submit">Submit</button>
+</center>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

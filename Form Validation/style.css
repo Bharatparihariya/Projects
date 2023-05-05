@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: rgb(4, 21, 58);
+    font-size: 50px;
+}
+hr{
+    border: 1px solid black;
+    
+}
+.form{
+    border: 2px solid black;
+    background-color: rgb(167, 194, 203);
+}
+input {
+    padding: 20px;
+    font-size: 20px;
+    margin: 5px;
+    font-weight: 600;
+    margin-left: 70px;
+    width: 50vh;
+    font-style: italic;
+    border-radius: 8px;
+}
+button {
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(4, 21, 58);
+    color: white;
+    cursor: pointer;
+    
+    
+}
+.form #User_error,
+.form #Email_error,
+.form #Pass_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: red;
+    background-color: rgba(255,0,0,0.1);
+    padding: 5px 8px ;
+    border-radius: 3px;
+    border: 1px solid #ef9a9a;
+    display:none;
+}
